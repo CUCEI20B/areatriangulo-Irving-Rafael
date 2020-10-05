@@ -3,7 +3,16 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    float Base;
+    float Altura;
+    float Res;
+    
+    cout<<"Ingrese La base del triangulo: "<<endl;
+    cin>>Base;
+    cout<<"Ingrese el area del triangulo: "<<endl;
+    cin>>Altura;
+    Res=Base*Altura/2;
+    cout<<"El resultado es: "<<Res<<endl;
 
     return 0;
 }
