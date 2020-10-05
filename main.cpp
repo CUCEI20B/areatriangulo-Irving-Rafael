@@ -3,9 +3,9 @@
 using namespace std;
 
 int main() {
-    float Base;
-    float Altura;
-    float Res;
+    int Base;
+    int Altura;
+    int Res;
     
     cout<<"Ingrese La base del triangulo: "<<endl;
     cin>>Base;
